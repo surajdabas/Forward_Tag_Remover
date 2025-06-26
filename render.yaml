@@ -1,20 +1,15 @@
+# Exported from Render on 2025-06-26T19:40:47Z
 services:
-  - type: web
-    name: Forward-Tag-Remover
-    plan: free
-    env: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python bot.py"
-    envVars:
-      - key: 7829627377:AAHhbTK7w016psXiCpoyFITkOO0GcJiV20I
-        description: "Telegram Bot token from @BotFather"
-        sync: false
-      - key: db864b56b75bae8e19db3dfaa34de59b
-        description: "Telegram API hash from https://my.telegram.org"
-        sync: false
-      - key: 13207544
-        description: "Telegram API ID from https://my.telegram.org"
-        sync: false
-      - key: 7819296616
-        description: "Owner's Telegram user ID (from @userinfobot)"
-        sync: false
+- type: web
+  name: hoooodhhhhhhhhhhhhhh
+  runtime: python
+  repo: https://github.com/surajdabas/Forward_Tag_Remover
+  plan: pro ultra
+  envVars:
+  - key: PYTHON_VERSION
+    sync: false
+  region: singapore
+  buildCommand: pip install -r requirements.txt
+  startCommand: python bot.py
+  autoDeployTrigger: commit
+version: "1"
