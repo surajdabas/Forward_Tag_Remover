@@ -10,7 +10,7 @@ class BOT:
     TOKEN: Bot token generated from @BotFather
     """
 
-    TOKEN = os.environ.get("TOKEN", "")
+    TOKEN = os.environ.get("TOKEN", "7829627377:AAHhbTK7w016psXiCpoyFITkOO0GcJiV20I")
 
 
 class API:
@@ -19,8 +19,8 @@ class API:
     ID = Telegram API ID from https://my.telegram.org
     """
 
-    HASH = os.environ.get("API_HASH", "")
-    ID = int(os.environ.get("API_ID", 0))
+    HASH = os.environ.get("API_HASH", "db864b56b75bae8e19db3dfaa34de59b")
+    ID = int(os.environ.get("API_ID", "13207544"))
 
 
 class OWNER:
@@ -28,7 +28,7 @@ class OWNER:
     ID: Owner's user id, get it from @userinfobot
     """
 
-    ID = int(os.environ.get("OWNER", 0))
+    ID = int(os.environ.get("OWNER", 7819296616))
 
 
 class WEB:
