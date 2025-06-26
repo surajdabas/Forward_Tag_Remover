@@ -6,15 +6,15 @@ services:
     buildCommand: "pip install -r requirements.txt"
     startCommand: "python bot.py"
     envVars:
-      - key: TOKEN
+      - key: 7829627377:AAHhbTK7w016psXiCpoyFITkOO0GcJiV20I
         description: "Telegram Bot token from @BotFather"
         sync: false
-      - key: API_HASH
+      - key: db864b56b75bae8e19db3dfaa34de59b
         description: "Telegram API hash from https://my.telegram.org"
         sync: false
-      - key: API_ID
+      - key: 13207544
         description: "Telegram API ID from https://my.telegram.org"
         sync: false
-      - key: OWNER
+      - key: 7819296616
         description: "Owner's Telegram user ID (from @userinfobot)"
         sync: false
